@@ -11,6 +11,7 @@ site/
 |-- projects.html
 |-- zyft-health.html
 |-- handrail.html
+|-- ludo-board.html
 |-- writing.html
 |-- creatine.html
 |-- resume.html
@@ -22,6 +23,7 @@ site/
 |-- README.md
 `-- assets/
     |-- css/styles.css
+    |-- img/creatine.png
     |-- js/main.js
     `-- RESUME_VRUTIK.pdf
 ```
@@ -34,6 +36,7 @@ site/
 4. In GitHub, open Settings -> Pages.
 5. Set Source to `Deploy from a branch`, branch to `main`, and folder to `/root`.
 6. Replace `assets/RESUME_VRUTIK.pdf` with the final resume PDF.
+7. Add the Ludo gameplay demo as `assets/video/ludo-board.mp4` when ready.
 
 ## Custom Domain
 

@@ -725,6 +725,36 @@ body.nav-open .nav-toggle::after {
   text-align: center;
 }
 
+.video-frame {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  margin: 0;
+  background: var(--bg-elev);
+}
+
+.project-video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #050608;
+}
+
+.video-placeholder {
+  display: grid;
+  min-height: 320px;
+  place-items: center;
+  border: 1px dashed var(--line-strong);
+  padding: 2rem;
+  color: var(--fg-muted);
+  text-align: center;
+}
+
+.video-placeholder p {
+  max-width: 520px;
+  margin-inline: auto;
+}
+
 @media (max-width: 760px) {
   .article-intro-grid {
     grid-template-columns: 1fr;
