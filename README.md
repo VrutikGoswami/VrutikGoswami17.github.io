@@ -12,6 +12,9 @@ site/
 |-- zyft-health.html
 |-- handrail.html
 |-- ludo-board.html
+|-- ace-club.html
+|-- eamun.html
+|-- nespresso.html
 |-- writing.html
 |-- creatine.html
 |-- resume.html
